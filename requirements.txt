@@ -1,0 +1,13 @@
+africastalking==1.2.5
+alembic==1.11.1
+beautifulsoup4==4.9.1
+Flask==2.3.2
+Flask_Migrate==2.5.3
+Flask_Script==2.0.3
+flask_sqlalchemy==3.0.5
+numpy==1.22.3
+pandas==1.4.1
+pyodbc==4.0.34
+Requests==2.31.0
+SQLAlchemy==2.0.15
+twilio==8.2.1
