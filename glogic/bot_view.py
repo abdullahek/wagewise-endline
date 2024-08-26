@@ -8,7 +8,7 @@ from . import send_airtime as sa
 
 @app.route('/message', methods=['GET', 'POST'])
 def bot():
-    print("request")f
+    print("request")
     num = request.form.get('From')
     num = num.replace('whatsapp:', '')
     incoming_msg = request.form.get('Body').lower()
