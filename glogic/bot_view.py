@@ -41,7 +41,7 @@ def bot():
             Message = ''
             if new is None:
                 print("Here it is")
-                Message = "Thank you! You have completed the survey and you’ve earned R1255 airtime which is on its way to you now. As part of your participation in the study, someone from Genesis Analytics will contact you to hear about how WageWise has helped you to manage your money so far. If you want to stop receiving the surveys, please send STOP."
+                Message = "Thank you! You have completed the survey and you’ve earned R125 airtime which is on its way to you now. As part of your participation in the study, someone from Genesis Analytics will contact you to hear about how WageWise has helped you to manage your money so far. If you want to stop receiving the surveys, please send STOP."
                 lrq.Vipe_clean_user_question_logs(num)
                 msg.body(Message)
             elif incoming_msg in ['End', 'end']:
