@@ -213,7 +213,7 @@ def registered(num):
     Returns 0 if user is not registered, 1 if registered
     """
     conn, cursor = Get_DB_conn()
-    query = f"select count(1) as r from users where number = '{num}' and registered = 1;"
+    query = f"select count(1) as r from users_endline where number = '{num}' and registered = 1;"
     cursor.execute(query)
     question = cursor.fetchone()
     print("Printing user")
